@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.app-content{
+    width: 100%;
+    height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-content-img{
+    width: 100%;
+    height: 933px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-div-image{
+    position:absolute;
+    top: 350px;
+    left: 350px;
+    width: 500px;
+    height: 300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.avatar{
+    position:absolute;
+    top: 200px;
+    right: 400px;
+    width: 300px;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.avatar img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form{
+    max-width: 300px;
+}
+.form-item{
+    float: left;
+}
+.form-items{
+    float: left;
+}
+.form-item input{
+    margin-top: 20px;
+    height: 20px;
+    width: 250px;
+}
+.form-items input{
+    margin-top: 20px;
+    height: 20px;
+    width: 250px;
+}
+.form-button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,#32be8f,#38d39f,#32be8f);
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-size: 200%;
+    transition: .5s;
+}
+.checkbox{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
 }
